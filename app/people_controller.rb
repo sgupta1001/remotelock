@@ -4,7 +4,6 @@ class PeopleController
   end
 
   def normalize
-    NormalizeService.new(params).process
   end
 
   private
