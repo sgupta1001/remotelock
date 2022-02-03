@@ -1,1 +1,5 @@
 require './app/people_controller.rb'
+require './app/normalize_service.rb'
+require './app/parser/base.rb'
+require './app/parser/dollar.rb'
+require './app/parser/percent.rb'
